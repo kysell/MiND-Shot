@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-11-18 13:11 UTC",
+  "trained_at": "2026-11-18 13:20 UTC",
   "btc": {
     "train_samples": 466,
     "test_samples": 201,
@@ -407,6 +407,25 @@
     },
     {
       "at": "2026-11-18 13:11 UTC",
+      "btc": {
+        "oos_acc": 51.14,
+        "oos_logloss": 0.6993,
+        "baseline_logloss": 0.6947,
+        "edge": -0.53,
+        "beats_baseline": false,
+        "train_samples": 14903
+      },
+      "eth": {
+        "oos_acc": 50.94,
+        "oos_logloss": 0.7023,
+        "baseline_logloss": 0.6945,
+        "edge": -0.86,
+        "beats_baseline": false,
+        "train_samples": 14903
+      }
+    },
+    {
+      "at": "2026-11-18 13:20 UTC",
       "btc": {
         "oos_acc": 51.14,
         "oos_logloss": 0.6993,
